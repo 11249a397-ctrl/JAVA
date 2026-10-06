@@ -15,7 +15,7 @@ Create objects in the main() method and call the inherited and implemented metho
 Display the results.
 Stop the program.
 
-
+PROGRAM:
 class Animal {
     void eat() {
         System.out.println("Animal eats");
