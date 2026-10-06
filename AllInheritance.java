@@ -1,4 +1,4 @@
-/*AIM
+AIM
 
 To write and execute a Java program to demonstrate Single, Multilevel, Hierarchical, Multiple, and Hybrid Inheritance using classes and interfaces.
 
@@ -13,7 +13,7 @@ Create class Student implementing both interfaces.
 Create CollegeStudent extending Student to demonstrate Hybrid Inheritance.
 Create objects in the main() method and call the inherited and implemented methods.
 Display the results.
-Stop the program.*/
+Stop the program.
 
 
 class Animal {
