@@ -1,3 +1,24 @@
+/*
+LEAP YEAR
+Aim
+
+To write and execute a Java program to check whether a given year is a leap year or not.
+
+Algorithm
+Start the program.
+Import the Scanner class.
+Read the year from the user.
+Check if the year is divisible by 400.
+If yes, it is a leap year.
+Otherwise, check if the year is divisible by 100.
+If yes, it is not a leap year.
+Otherwise, check if the year is divisible by 4.
+If yes, it is a leap year.
+Otherwise, it is not a leap year.
+Display the result.
+Stop the program.*/
+
+PROGRAM:
 import java.util.Scanner;
 
 public class LeapYear {
@@ -29,3 +50,14 @@ public class LeapYear {
         s.close();
     }
 }
+/*
+Output
+Example 1
+Enter any year: 2024
+Year 2024 is a Leap Year
+Example 2
+Enter any year: 2023
+Year 2023 is not a Leap Year
+Result
+
+Thus, the Java program was successfully executed to check whether the given year is a leap year or not.*/
