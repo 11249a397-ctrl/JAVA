@@ -1,3 +1,21 @@
+/*AIM
+
+To write and execute a Java program to demonstrate Single, Multilevel, Hierarchical, Multiple, and Hybrid Inheritance using classes and interfaces.
+
+ALGORITHM
+Start the program.
+Create a base class Animal with the method eat().
+Create class Dog extending Animal to demonstrate Single Inheritance.
+Create class Puppy extending Dog to demonstrate Multilevel Inheritance.
+Create class Cat extending Animal to demonstrate Hierarchical Inheritance.
+Create two interfaces Sports and Music to demonstrate Multiple Inheritance.
+Create class Student implementing both interfaces.
+Create CollegeStudent extending Student to demonstrate Hybrid Inheritance.
+Create objects in the main() method and call the inherited and implemented methods.
+Display the results.
+Stop the program.*/
+
+
 class Animal {
     void eat() {
         System.out.println("Animal eats");
@@ -78,3 +96,21 @@ public class AllInheritance {
         s.study();
     }
 }
+
+/*OUTPUT:
+Animal eats
+Dog barks
+
+Animal eats
+Dog barks
+Puppy plays
+
+Animal eats
+Cat meows
+
+Student plays sports
+Student sings
+
+RESULT:
+Thus, the Java program was successfully executed and the concepts of Single, Multilevel, Hierarchical, Multiple, and Hybrid Inheritance were demonstrated.*/
+
