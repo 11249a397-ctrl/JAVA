@@ -1,3 +1,24 @@
+/*Aim
+
+To write and execute a Java program to search for a given element in an array using the Binary Search technique.
+
+Algorithm
+Start the program.
+Import the Scanner class.
+Read the number of elements n.
+Create an integer array of size n.
+Read the array elements in ascending order.
+Read the element x to be searched.
+Set first = 0 and last = n - 1.
+Repeat while first <= last:
+Calculate mid = (first + last) / 2.
+If a[mid] == x, the element is found.
+If x < a[mid], search the left half by setting last = mid - 1.
+Otherwise, search the right half by setting first = mid + 1.
+If the element is not found, display "Element not found."
+Stop the program.*/
+
+PROGRAM:
 import java.util.Scanner;
 
 public class BinarySearch {
@@ -46,3 +67,28 @@ public class BinarySearch {
         sc.close();
     }
 }
+/*
+OUTPUT:
+Example 1: Element Found
+Enter number of elements: 5
+Enter elements in ascending order:
+10
+20
+30
+40
+50
+Enter element to search: 30
+Element found at position: 3
+Example 2: Element Not Found
+Enter number of elements: 5
+Enter elements in ascending order:
+10
+20
+30
+40
+50
+Enter element to search: 25
+Element not found.
+
+RESULT:
+Thus, the Java program was successfully executed to search for an element in a sorted array using the Binary Search technique.*/
