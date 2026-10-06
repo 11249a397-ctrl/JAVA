@@ -1,3 +1,23 @@
+/*
+LARGEST AND SMALLEST ELEMENT IN AN ARRAY
+Aim
+
+To write and execute a Java program to find the largest and smallest elements in an array.
+
+Algorithm
+Start the program.
+Import the Scanner class.
+Read the number of elements n.
+Create an integer array of size n.
+Read the array elements from the user.
+Initialize largest and smallest with the first array element.
+Compare each remaining element with largest.
+If the element is greater, update largest.
+Compare each remaining element with smallest.
+If the element is smaller, update smallest.
+Display the largest and smallest numbers.
+Stop the program.*/
+PROGRAM:
 import java.util.Scanner;
 
 public class LargestSmallest {
@@ -35,3 +55,18 @@ public class LargestSmallest {
         sc.close();
     }
 }
+/*
+Output
+Enter the number of elements: 5
+Enter the array elements:
+25
+10
+45
+5
+30
+
+Largest Number = 45
+Smallest Number = 5
+Result
+
+Thus, the Java program was successfully executed to find the largest and smallest elements in the given array.*/
