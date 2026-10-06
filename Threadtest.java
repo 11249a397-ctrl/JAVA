@@ -1,3 +1,21 @@
+/*THREAD METHODS – YIELD() AND SLEEP()
+Aim
+
+To write and execute a Java program to demonstrate multithreading using yield() and sleep() methods.
+
+Algorithm
+Start the program.
+Create three classes A, B, and C by extending the Thread class.
+In thread A, use the yield() method to give other threads a chance to execute.
+In thread B, display the values from 1 to 3 and terminate the loop using break when j = 3.
+In thread C, display the values from 1 to 5.
+When k = 1, pause thread C for 1500 milliseconds using Thread.sleep().
+Create objects for all three threads.
+Start the three threads using the start() method.
+Display the main thread exit message.
+Stop the program.*/
+
+PROGRAM:
 class A extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -56,5 +74,32 @@ public class Threadtest {
         System.out.println("exit from main thread");
     }
 }
+/*
+Output
+
+Note: The order may change each time because the three threads execute concurrently.
+
+One possible output is:
+
+Start thread A
+exit from main thread
+from thread B j=1
+from thread B j=2
+from thread B j=3
+exit from B
+thread C = 1
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+from thread A i=5
+exit from A
+thread C = 2
+thread C = 3
+thread C = 4
+thread C = 5
+Result
+
+Thus, the Java program was successfully executed to demonstrate multithreading using the yield() and sleep() methods.*/
 
 
