@@ -1,0 +1,115 @@
+/*AREA AND PERIMETER OF SHAPES USING PACKAGES
+Aim
+
+To write and execute a Java program to calculate the area and perimeter of Circle, Square, and Rectangle using classes from a user-defined shapes package.
+
+Algorithm
+Start the program.
+Create a package named shapes.
+Create a Circle class with radius as a data member.
+Define methods area() and perimeter() in the Circle class.
+Create a Square class with side as a data member.
+Define methods area() and perimeter() in the Square class.
+Create a Rectangle class with length and width as data members.
+Define methods area() and perimeter() in the Rectangle class.
+Import the three classes from the shapes package into the calculate class.
+Create objects for Circle, Square, and Rectangle.
+Call the area() and perimeter() methods for each shape.
+Display the calculated values.
+Stop the program.*/
+
+program:
+import shapes.Circle;
+import shapes.Square;
+import shapes.Rectangle;
+
+public class calculate {
+    public static void main(String[] args) {
+
+        Circle c = new Circle(5);
+        Square s = new Square(4);
+        Rectangle r = new Rectangle(6, 3);
+
+        System.out.println("Circle:");
+        System.out.println("Area = " + c.area());
+        System.out.println("Perimeter = " + c.perimeter());
+
+        System.out.println("\nSquare:");
+        System.out.println("Area = " + s.area());
+        System.out.println("Perimeter = " + s.perimeter());
+
+        System.out.println("\nRectangle:");
+        System.out.println("Area = " + r.area());
+        System.out.println("Perimeter = " + r.perimeter());
+    }
+}
+
+package shapes;
+
+public class Circle {
+    double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public double area() {
+        return Math.PI * radius * radius;
+    }
+
+    public double perimeter() {
+        return 2 * Math.PI * radius;
+    }
+}
+
+package shapes;
+
+public class Rectangle {
+    double length, width;
+
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+    public double area() {
+        return length * width;
+    }
+
+    public double perimeter() {
+        return 2 * (length + width);
+    }
+}
+
+package shapes;
+
+public class Square {
+    double side;
+
+    public Square(double side) {
+        this.side = side;
+    }
+
+    public double area() {
+        return side * side;
+    }
+
+    public double perimeter() {
+        return 4 * side;
+    }
+}
+/*Output
+Circle:
+Area = 78.53981633974483
+Perimeter = 31.41592653589793
+
+Square:
+Area = 16.0
+Perimeter = 16.0
+
+Rectangle:
+Area = 18.0
+Perimeter = 18.0
+Result
+
+Thus, the Java program was successfully executed to calculate the area and perimeter of Circle, Square, and Rectangle using a user-defined package.*/
