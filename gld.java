@@ -1,4 +1,28 @@
-import java.awt.*;
+/*
+AIM
+
+To write a Java program to demonstrate the GridLayout manager for arranging components in rows and columns.
+
+ALGORITHM
+
+Start the program.
+
+Import the required Java AWT package.
+
+Create a class that extends the Frame class.
+
+Set the layout using GridLayout with the required number of rows and columns.
+
+Create buttons or other components.
+
+Add the components to the frame.
+
+Set the size of the frame and make it visible.
+
+Stop the program.
+*/
+program
+  import java.awt.*;
 import java.io.*;
 import java.applet.Applet.*;
 import java.applet.*;
@@ -35,3 +59,5 @@ public Insets getInsets()
 {
 return new Insets(20,20,20,20);
 }}
+
+/*result: grid layout successfully excecuted*/
