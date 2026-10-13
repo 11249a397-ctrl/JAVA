@@ -50,4 +50,6 @@ public class face extends Applet
     }
 }
 output: face-output.png 
-/*result: awaking a human face usimng applets is successfully executed*/
+  /* https://github.com/11249a397-ctrl/JAVA/blob/main/cardlayout-output.png /*
+  
+  /*result: awaking a human face usimng applets is successfully executed*/
