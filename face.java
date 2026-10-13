@@ -49,5 +49,5 @@ public class face extends Applet
         g.drawOval(160, 92, 15, 30);
     }
 }
-
+output: face-output.png 
 /*result: awaking a human face usimng applets is successfully executed*/
