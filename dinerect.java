@@ -1,3 +1,32 @@
+/*AIM:
+
+To write a Java applet program to draw different shapes using graphics methods.
+
+ALGORITHM:
+
+Start the program.
+
+Import the required AWT and Applet packages.
+
+Create a class named dinerect that extends the Applet class.
+
+Override the paint() method.
+
+Use drawLine() to draw straight and diagonal lines.
+
+Use drawRect() to draw a rectangle.
+
+Use fillRect() to draw a filled rectangle.
+
+Use drawRoundRect() to draw a rounded rectangle.
+
+Use fillRoundRect() to draw a filled rounded rectangle.
+
+Execute the applet to display all the shapes.
+
+Stop the program.
+*/
+program
 import java.awt.*;
 import java.io.*;
 import java.applet.*;
@@ -23,3 +52,4 @@ g.drawLine(10, 10, 50, 50);
 
 
 }
+/*result: drawing line and rectangle using apllet is successfully executed*/
